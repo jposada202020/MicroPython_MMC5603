@@ -1,0 +1,8 @@
+{
+  "urls": [
+    ["micropython_mmc5603/examples/mmc5603_simpletest.py", "github:jposada202020/MicroPython_MMC5603/examples/mmc5603_simpletest.py"],
+    ["micropython_mmc5603/examples/mmc5603_measure_time.py", "github:jposada202020/MicroPython_MMC5603/examples/mmc5603_measure_time.py"],
+    ["micropython_mmc5603/examples/mmc5603_continuous.py", "github:jposada202020/MicroPython_MMC5603/examples/mmc5603_continuous.py"]
+  ],
+  "version": "0.1"
+}

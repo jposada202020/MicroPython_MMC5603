@@ -13,7 +13,7 @@ MicroPython driver for the Memsic MMC5603 Magnetometer
 
 
 """
-import struct
+
 import time
 from micropython import const
 from micropython_mmc5603.i2c_helpers import CBits, RegisterStruct
