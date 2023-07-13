@@ -21,10 +21,7 @@ urls = {Homepage = "https://github.com/jposada202020/MicroPython_MMC5603"}
 keywords = [
     "sensor",
     "micropython",
-    "mmc5603",
-    "micropython",
     "driver",
-    "sensor",
     "memsic",
     "mmc5603",
     "magnetometer",

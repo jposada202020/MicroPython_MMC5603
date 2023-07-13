@@ -15,6 +15,6 @@ mmc.continuous_mode = True
 
 while True:
     mag_x, mag_y, mag_z = mmc.magnetic
-    print("X:{0:10.2f}, Y:{1:10.2f}, Z:{2:10.2f} uT".format(mag_x, mag_y, mag_z))
+    print(f"X:{mag_x:.2f}, Y:{mag_y:.2f}, Z:{mag_z:.2f} uT")
     print()
     time.sleep(0.5)

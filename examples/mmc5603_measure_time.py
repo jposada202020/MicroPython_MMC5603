@@ -16,7 +16,7 @@ while True:
         print("Current Measure time setting: ", mmc.measure_time)
         for _ in range(10):
             magx, magy, magz = mmc.magnetic
-            print("x:{:.2f}uT, y:{:.2f}uT, z:{:.2f}uT".format(magx, magy, magz))
+            print(f"X:{magx:.2f}, Y:{magy:.2f}, Z:{magz:.2f} uT")
             print()
             time.sleep(0.5)
         mmc.measure_time = measure_time

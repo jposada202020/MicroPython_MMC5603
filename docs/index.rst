@@ -24,4 +24,4 @@ Table of Contents
 .. toctree::
     :caption: Other Links
 
-    Download from GitHub <https://github.com/jposada202020/MciroPython_MMC5603/releases/latest>
+    Download from GitHub <https://github.com/jposada202020/MicroPython_MMC5603/releases/latest>

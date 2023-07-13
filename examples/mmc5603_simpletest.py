@@ -12,18 +12,8 @@ mmc = mmc5603.MMC5603(i2c)
 
 while True:
     mag_x, mag_y, mag_z = mmc.magnetic
-    print("X:{0:10.2f}, Y:{1:10.2f}, Z:{2:10.2f} uT".format(mag_x, mag_y, mag_z))
+    print(f"X:{mag_x:.2f}, Y:{mag_y:.2f}, Z:{mag_z:.2f} uT")
     temp = mmc.temperature
-    print("Temperature: {:.2f}C".format(temp))
+    print(f"Temperature: {temp:.2f}°C")
     print()
     time.sleep(1.0)
-
-# print(mmc.data_rate)
-# mmc.data_rate = 10  # in Hz, from 1-255 or 1000
-# mmc.continuous_mode = True
-# print(mmc.data_rate)
-#
-# while True:
-#     mag_x, mag_y, mag_z = mmc.magnetic
-#     print("X:{0:10.2f}, Y:{1:10.2f}, Z:{2:10.2f} uT".format(mag_x, mag_y, mag_z))
-#     time.sleep(2)
